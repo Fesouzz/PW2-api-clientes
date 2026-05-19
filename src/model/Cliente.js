@@ -1,10 +1,10 @@
 class Cliente{
-    constructor(id, nome, telefone, endereco){
-        this.nome = nome;
-        this.endereco = endereco;
-        this.id = id;
-        this.telefone = telefone;
+    constructor(id, name, telefone, endereco){
+        this.id = this.id;
+        this.name = this.name;
+        this.telefone = this.telefone;
+        this.endereco = this.endereco;
     }
 }
 
-module.exports = Cliente
+module.exports = Cliente;
